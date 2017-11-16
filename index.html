@@ -1,0 +1,43 @@
+<!-- Welcome! This is a shell of an Angular-driven website. As served, this is compatible with up to Angular 1.5.6-->
+
+<!DOCTYPE html>
+<html ng-app="FollowMore" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /><!-- Default. Can be changed-->
+    <link rel="icon" href="</PATH/TO/ICON>"> <!--For tab icon-->
+    <title ng-bind="$state.current.params.title"></title> <!--Ties to current $state's title parameter. See app's js file for more information.-->
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Grab the latest at the root site -->
+    <!--<link rel="stylesheet" type="text/css" href="css/normalize.css">-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Spectral+SC" rel="stylesheet">
+
+    <!-- Libraries, including: Angular UI Router, Angular Touch, Angular Animate, NG Dialog, TweenMax and Angular Smooth Scroll-->
+    <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
+    <script src="js/angular-touch.js"></script>
+    <script src="js/angular-animate.js"></script>
+    <script src="js/ng-dialog.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/angular-smooth-scroll.js"></script>
+
+    <!-- Angular App: Custom Angular js files-->
+    <script src="angular-app/app-followmore.js"></script>
+    <script src="angular-app/controllers/home.controller.js"></script>
+    <script src="angular-app/controllers/nav.controller.js"></script>
+    <script src="angular-app/controllers/app.controller.js"></script>
+
+</head>
+
+<body>
+  <div ui-view></div>
+</body>
+
+</html>

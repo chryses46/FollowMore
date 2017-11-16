@@ -1,0 +1,37 @@
+//Feel free to use this Sassy file to write your css. You can learn more about Sassy at http://sass-lang.com/
+=margin
+  margin: 0 auto
+
+=titleFont
+  font-family: 'Lobster', cursive
+
+
+
+body
+  text-align: center
+  font-family: 'Spectral SC', cursive
+
+  .header
+    h1
+      color: red
+      font-size: 4em
+      +margin
+      +titleFont
+    p
+      font-size: 1em
+      +margin
+
+  .intro
+    h1
+      color: #000
+      font-size: 2em
+
+    p
+      color: #000
+      font-size: 1em
+
+  .app
+    .sign-in
+      width: auto
+      height: 2em
+      border: 1em red
