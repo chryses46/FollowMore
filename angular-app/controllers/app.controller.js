@@ -4,6 +4,8 @@ angular.module('FollowMore')
 
       $scope.test = function(){
         console.log("Yep, it works.")
+      };
+      $scope.token= function(){
       }
 
     })

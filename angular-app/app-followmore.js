@@ -21,6 +21,11 @@
           controllerAs: 'home',
           params: {title: "Follow More | Home"}
         })
+        .state('privacy', {
+          url: '/privacy',
+          templateUrl: 'angular-app/site-pages/pirvacy.html',
+          params: {title: "Follow More | Home"}
+        })
     })
     //Attribute Directives
     .directive('nav', function() {
